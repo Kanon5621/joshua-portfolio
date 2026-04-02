@@ -2,11 +2,13 @@
   "name": "joshua-portfolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+"scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",
@@ -23,6 +25,7 @@
     "autoprefixer": "^10.4.27",
     "eslint": "^9",
     "eslint-config-next": "16.2.2",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.8",
     "tailwindcss": "^4.2.2",
     "typescript": "^5"

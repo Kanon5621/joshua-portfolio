@@ -5,8 +5,8 @@ export const metadata = {
   title: "Joshua Balangue | Premium Virtual Assistant",
   description: "Elite data-driven support and administrative services.",
   icons: {
-    icon: "/JB.jpg", 
-    apple: "/JB.jpg",
+    icon: "/joshua-portfolio/JB.jpg", 
+    apple: "/joshua-portfolio/JB.jpg",
   },
 };
 

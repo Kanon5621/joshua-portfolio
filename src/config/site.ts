@@ -3,7 +3,7 @@ import { SiteConfig } from "@/types/portfolio";
 export const siteConfig: SiteConfig = {
   name: "Joshua E. Balangue",
   role: "Executive & E-commerce Virtual Assistant",
-  profileImage: "/BALANGUE, JOSHUA, E..png",
+  profileImage: "/joshua-portfolio/BALANGUE, JOSHUA, E..png",
   headline: "Data-Driven Support for Global E-commerce Brands & Executives",
   location: "Dasmariñas, Cavite, Philippines",
   email: "joshuabalangue5621@gmail.com",
