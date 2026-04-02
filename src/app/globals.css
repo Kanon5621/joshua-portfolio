@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6; 
+  --color-accent: #14b8a6;  
+  --color-dark-bg: #09090b;
+  --color-surface: #18181b;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-zinc-300 antialiased selection:bg-primary/30;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-surface/50 border border-white/5 backdrop-blur-md rounded-3xl 
+           hover:border-primary/40 transition-all duration-500;
+  }
+  
+  .reveal-text {
+    @apply bg-linear-to-b from-white to-zinc-500 bg-clip-text text-transparent;
+  }
+}
