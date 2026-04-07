@@ -13,6 +13,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true # This fixes the warning
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,12 +25,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24" # Upgraded version
           cache: 'npm'
       - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
+        uses: actions/configure-pages@v5 # Updated to v5
       - name: Install dependencies
         run: npm install
       - name: Build with Next.js
