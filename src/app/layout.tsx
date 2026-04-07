@@ -1,12 +1,15 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
+const isProd = process.env.NODE_ENV === "production";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isProd ? "/joshua-portfolio" : "");
+
 export const metadata = {
   title: "Joshua Balangue | Premium Virtual Assistant",
   description: "Elite data-driven support and administrative services.",
   icons: {
-    icon: "/joshua-portfolio/JB.jpg", 
-    apple: "/joshua-portfolio/JB.jpg",
+    icon: `${basePath}/JB.jpg`,
+    apple: `${basePath}/JB.jpg`,
   },
 };
 

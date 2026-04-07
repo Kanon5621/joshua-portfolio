@@ -3,7 +3,12 @@ import { motion } from "framer-motion";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
 
+const isProd = process.env.NODE_ENV === "production";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isProd ? "/joshua-portfolio" : "");
+
 export default function Hero() {
+  const profileSrc = `${basePath}${siteConfig.profileImage}`;
+
   return (
     <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden bg-dark-bg">
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-primary/10 blur-[160px] rounded-full -z-10" />
@@ -25,10 +30,10 @@ export default function Hero() {
           <div className="absolute inset-0 bg-primary rounded-full blur-2xl opacity-20 animate-pulse" />
           <div className="relative w-full h-full rounded-full border-2 border-white/10 overflow-hidden shadow-2xl">
             <Image
-              src={siteConfig.profileImage}
+              src={profileSrc}
               alt={siteConfig.name}
               fill
-              className="object-cover object-top" // Changed from object-center to object-top
+              className="object-cover object-top"
               priority
             />
           </div>

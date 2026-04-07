@@ -3,7 +3,12 @@ import { motion } from "framer-motion";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
 
+const isProd = process.env.NODE_ENV === "production";
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? (isProd ? "/joshua-portfolio" : "");
+
 export default function About() {
+  const profileSrc = `${basePath}${siteConfig.profileImage}`;
+
   return (
     <section id="about" className="py-24 px-6 border-y border-white/5 bg-dark-bg">
       <motion.div 
@@ -15,7 +20,7 @@ export default function About() {
       >
         <div className="relative aspect-square rounded-3xl overflow-hidden border border-white/10 grayscale hover:grayscale-0 transition-all duration-700">
             <Image
-              src={siteConfig.profileImage}
+              src={profileSrc}
               alt={siteConfig.name}
               fill
               className="object-cover object-top"
