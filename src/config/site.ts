@@ -82,16 +82,6 @@ export const siteConfig: SiteConfig = {
       ]
     },
     {
-      role: "Executive Virtual Assistant",
-      company: "Czarina Yuri (Freelance)",
-      period: "May 2023 – Dec 2023",
-      tasks: [
-        "Coordinated class schedules for international students across varying time zones for a freelance ESL teacher.",
-        "Handled email prioritization, urgent communications, and lesson preparation using PowerPoint and Canva.",
-        "Improved student engagement by refining graphics and aligning educational elements in instructional assets."
-      ]
-    },
-    {
       role: "E-commerce Product Listing & Affiliate VA",
       company: "Lazada (Freelance)",
       period: "Jan 2024 – Jun 2024",
@@ -101,6 +91,17 @@ export const siteConfig: SiteConfig = {
         "Created high-quality visuals and infographics incorporating promotional elements and brand styling."
       ]
     },
+    {
+      role: "Executive Virtual Assistant",
+      company: "Czarina Yuri (Freelance)",
+      period: "May 2023 – Dec 2023",
+      tasks: [
+        "Coordinated class schedules for international students across varying time zones for a freelance ESL teacher.",
+        "Handled email prioritization, urgent communications, and lesson preparation using PowerPoint and Canva.",
+        "Improved student engagement by refining graphics and aligning educational elements in instructional assets."
+      ]
+    },
+    
     {
       role: "Advisor I - Blended Support",
       company: "Concentrix",
