@@ -44,7 +44,7 @@ export const siteConfig: SiteConfig = {
     {
       role: "AI Video Prompt Engineer",
       company: "Raffy Clemente (Freelance)",
-      period: "Oct 2025 – Dec 2025",
+      period: "Jul 2025 – Dec 2025",
       tasks: [
         "Built immersive, dreamcore-style video content using a multi-stage AI workflow to reproduce early 2000s digital aesthetics.",
         "Transformed abstract concepts into technical directions for high-fidelity looping animations with surrealist themes.",
@@ -53,7 +53,7 @@ export const siteConfig: SiteConfig = {
     },
     {
       role: "AI Visual Advertising Creator",
-      company: "Lia Pumarin (Freelance)",
+      company: "Alia Pumarin (Freelance)",
       period: "Sep 2025 – Dec 2025",
       tasks: [
         "Managed a production workflow to create powerful visual advertisements for nutritional products.",
@@ -64,7 +64,7 @@ export const siteConfig: SiteConfig = {
     {
       role: "AI Visual Creator",
       company: "Cloudin Gumanit (Freelance)",
-      period: "Jan 2024 – Jun 2024",
+      period: "Mar 2025 – Jun 2025",
       tasks: [
         "Led the development of high-impact visuals for dietary supplements using high-level generative AI technologies.",
         "Mapped complex brand demands into realistic professional images illustrating key product characteristics.",
@@ -74,7 +74,7 @@ export const siteConfig: SiteConfig = {
     {
       role: "E-commerce Product Listing VA",
       company: "Shopee (Freelance)",
-      period: "Oct 2023 – Dec 2023",
+      period: "Oct 2024 – Dec 2024",
       tasks: [
         "Managed product listings for digital devices, ensuring accurate images, infographics, and technical specifications.",
         "Organized files using SKU-based naming conventions and maintained a structured inventory folder system.",
@@ -94,7 +94,7 @@ export const siteConfig: SiteConfig = {
     {
       role: "E-commerce Product Listing & Affiliate VA",
       company: "Lazada (Freelance)",
-      period: "Mar 2023 – Jun 2023",
+      period: "Jan 2024 – Jun 2024",
       tasks: [
         "Ensured product titles, descriptions, and images were optimized for maximum visibility and engagement.",
         "Verified listing compliance with platform guidelines and tracked affiliate performance metrics.",
